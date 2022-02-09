@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth ;
+}
+#navbar{
+        
+    width: 100px ;
+    position: fixed ;
+    top: 30% ;
+    height: 70% ;
+    
+}
+
+#navbar1{
+        
+    width: 100px ;
+    position: fixed ;
+    right: 0% ;
+    top: 36% ;
+    height: 70% ;
+}
+
+
+#navbar1 hr{
+    margin-left: 50% ;
+}
+
+body{
+    margin: 0 ;
+}
+.c1{
+    transition: 500ms ;
+    margin: 0 ;
+    padding: 10px ;
+}
+.c1:hover
+{
+    font-size: 25px ;
+}
+.c2{
+    margin: 0;
+    padding: 10px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+.c2R:hover
+{
+    animation-direction:reverse;
+    transform: translateY(0,25%);
+    height: 50px
+}
+.c2R{
+    transition: 500ms;
+    width : 30px;
+    height: 30px
+}
+
+hr{
+    width: 50%;
+    margin: auto 0;
+}
+
+.hdiv1{
+    background-color: #4CB3CF;
+    font-family: 'Acme', sans-serif;
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-right: 8%;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.hdiv2{
+    font-family: 'Acme', sans-serif;
+    background-color:  #21ccaf;
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-right: 8%;
+    text-align: right;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.wrap{
+    margin-left: 7%;
+}
+p{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mainLogo{
+    position: fixed;
+    height: 20%;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.title{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    position:absolute;
+    z-index:1;
+}
+
+#content{
+    position: absolute;
+    margin-top: 9%;
+}
+.Name
+{
+    padding-top: 1%;
+    padding-left: 23%;
+    margin-bottom: 2px;
+}
+.dname
+{
+    padding-top: 1%;
+    padding-left: 29%;
+    margin-top: 0;
+}
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 18px;
+    background: #6c757d;
+    padding: 10px 20px 10px 20px;
+    border: solid #6c757d 3px;
+    text-decoration: none;
+    margin-top: 6%;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #828e99;
+    text-decoration: none;
+  }
